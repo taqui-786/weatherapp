@@ -9,7 +9,7 @@ const [Nav,setNav] = useState(false)
         <nav className="navbar">
         <div className="max-width">
           <div className="nav-item">
-            <div className="logo"><NavLink to="/" > <span><WiDaySunnyOvercast/></span> TaquiWeather</NavLink></div>
+            <div className="logo"><NavLink to="/home" > <span><WiDaySunnyOvercast/></span> TaquiWeather</NavLink></div>
             <div className= "list">
               <ul>
                 <li><NavLink  to="/about"  activeclassname="activeBTN">About</NavLink></li>
