@@ -13,7 +13,7 @@ function App() {
   return (<>
   <Navbar/>
   <Routes>
-    <Route exact path='/weatherapp' element={<Home/>} />
+    <Route exact path='/' element={<Home/>} />
     <Route exact path='/about' element={<About/>} />
     {/* <Route  path='/about' element={<Error/>} /> */}
     <Route exact path='/contact' element={<Contact/>} />
